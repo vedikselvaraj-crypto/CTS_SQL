@@ -6,7 +6,7 @@ All 10 hands-on exercises are implemented as independent, self-contained applica
 
 ---
 
-## 📁 Repository Folder Structure
+##  Repository Folder Structure
 
 ```
 Module2_FrontendDev/
@@ -127,7 +127,7 @@ Module2_FrontendDev/
 
 ---
 
-## 🛠️ Software & System Requirements
+##  Software & System Requirements
 
 - **Node.js**: v18.x or v20.x (LTS recommended)
 - **npm**: v9.x or higher
@@ -135,7 +135,7 @@ Module2_FrontendDev/
 
 ---
 
-## 🚀 How to Run Each Hands-On Exercise
+##  How to Run Each Hands-On Exercise
 
 ### Hands-On 01 to 04 & 09 (Vanilla HTML/CSS/JS)
 These exercises require no node module installation.
@@ -179,7 +179,7 @@ npm run dev
 
 ---
 
-## 🎨 Unified Design System & Color Palette
+##  Unified Design System & Color Palette
 
 All exercises strictly adhere to the following design system:
 
@@ -193,7 +193,7 @@ All exercises strictly adhere to the following design system:
 
 ---
 
-## ♿ Web Accessibility (WCAG 2.1 Compliance in Hands-On 09)
+##  Web Accessibility (WCAG 2.1 Compliance in Hands-On 09)
 
 - **Semantic Elements**: Native `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`, `<button>`, and `<label>`.
 - **Keyboard Navigability**: Full tab order support, `tabindex="0"`, and custom `Enter`/`Space` keydown listener handlers for interactive cards.
@@ -202,7 +202,7 @@ All exercises strictly adhere to the following design system:
 
 ---
 
-## 📊 State Management Comparison (React + Redux vs. Angular + NgRx vs. Vue + Pinia)
+## State Management Comparison (React + Redux vs. Angular + NgRx vs. Vue + Pinia)
 
 | Feature | React + Redux Toolkit | Angular + NgRx | Vue 3 + Pinia |
 | :--- | :--- | :--- | :--- |
@@ -214,5 +214,5 @@ All exercises strictly adhere to the following design system:
 
 ---
 
-## 📝 License & Attribution
+##  License & Attribution
 Designed for **Digital Nurture 5.0 Deep Skilling Program - Python Full Stack Engineer Track**.

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal - HTML5 & CSS3 Foundations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="site-branding">
+            <h1 class="site-title">Student Portal</h1>
+        </div>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                <li class="nav-item"><a href="#grades" class="nav-link">Grades</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-heading">Welcome to the Student Portal</h1>
+                <p class="hero-description">
+                    Empowering students with seamless access to course materials, grade tracking, academic schedules, and direct faculty communication.
+                </p>
+                <button type="button" class="btn-primary hero-btn">Explore Courses</button>
+            </div>
+        </section>
+
+        <section id="courses" class="courses-section">
+            <h2 class="section-title">Featured Courses</h2>
+            
+            <div class="courses-container">
+                <article class="course-card">
+                    <h3 class="course-title">CS101 — Data Structures & Algorithms</h3>
+                    <p class="course-description">
+                        Master basic data structures including linked lists, stacks, queues, trees, graphs, and fundamental sorting and searching algorithms.
+                    </p>
+                    <span class="course-credits">4 Credits</span>
+                </article>
+
+                <article class="course-card">
+                    <h3 class="course-title">CS202 — Full Stack Web Development</h3>
+                    <p class="course-description">
+                        Learn modern client-side and server-side web techniques using HTML5, CSS3, JavaScript, APIs, and modern frontend frameworks.
+                    </p>
+                    <span class="course-credits">4 Credits</span>
+                </article>
+
+                <article class="course-card">
+                    <h3 class="course-title">CS303 — Database Management Systems</h3>
+                    <p class="course-description">
+                        Explore relational database design, SQL querying, normalisation techniques, transaction processing, and NoSQL storage paradigms.
+                    </p>
+                    <span class="course-credits">3 Credits</span>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Student Portal Web Application. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -12,7 +12,7 @@ All exercises build a unified business domain — a **Course Management API** �
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 PythonBackendFrameworks/
@@ -58,7 +58,7 @@ PythonBackendFrameworks/
 
 ---
 
-## 🐍 Installation & Virtual Environment Setup
+##  Installation & Virtual Environment Setup
 
 ### 1. Create and Activate Virtual Environment
 
@@ -83,7 +83,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run Each Framework Project
+##  How to Run Each Framework Project
 
 ### 1. Running Django Projects (Hands-On 1, 2, 3)
 
@@ -167,7 +167,7 @@ Test through Gateway Proxy:
 
 ---
 
-## 📊 Framework Architectural Comparison
+##  Framework Architectural Comparison
 
 | Metric / Feature | Django & DRF | Flask | FastAPI |
 | :--- | :--- | :--- | :--- |
@@ -179,7 +179,7 @@ Test through Gateway Proxy:
 
 ---
 
-## 📤 GitHub Submission Instructions
+##  GitHub Submission Instructions
 
 1. **Commit All Code**:
    ```bash

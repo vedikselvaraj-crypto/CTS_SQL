@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal - Async JS, Fetch API & Axios (Hands-On 04)</title>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Axios CDN Integration (Task 55) -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="site-header">
+        <div class="site-branding">
+            <h1 class="site-title">Student Portal</h1>
+        </div>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#notifications" class="nav-link active">Notifications</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-content">
+
+        <!-- Course Section (Simulated 1s Network Delay) -->
+        <section id="courses" class="courses-section">
+            <h2 class="section-title">Enrolled Courses (Async Promise Fetch)</h2>
+            
+            <!-- Loading Indicator for Courses -->
+            <div id="courses-loader" class="loader-container">
+                <div class="spinner"></div>
+                <p>Loading courses...</p>
+            </div>
+
+            <!-- Dynamic Grid Container -->
+            <div id="course-grid" class="course-grid" style="display: none;"></div>
+        </section>
+
+        <!-- Notifications Section (Live API Fetch from JSONPlaceholder /posts) -->
+        <section id="notifications" class="notifications-section">
+            <div class="section-header">
+                <h2 class="section-title">Student Notifications (Live API Data)</h2>
+                <div class="api-toggle-buttons">
+                    <button type="button" id="fetch-valid-btn" class="btn-primary">Fetch Posts (Axios)</button>
+                    <button type="button" id="fetch-error-btn" class="btn-danger">Simulate 404 Error</button>
+                </div>
+            </div>
+
+            <!-- Loading Spinner for API -->
+            <div id="api-loader" class="loader-container" style="display: none;">
+                <div class="spinner"></div>
+                <p>Fetching notifications from server...</p>
+            </div>
+
+            <!-- Error Banner Container -->
+            <div id="error-container" class="error-banner" style="display: none;">
+                <p id="error-message">An error occurred while fetching data.</p>
+                <button type="button" id="retry-btn" class="btn-retry">Retry Connection</button>
+            </div>
+
+            <!-- Notifications Container -->
+            <div id="notifications-grid" class="notifications-grid"></div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Student Portal | Async JS, Fetch API & Axios Integration</p>
+    </footer>
+
+    <!-- App JavaScript -->
+    <script src="app.js"></script>
+
+</body>
+</html>

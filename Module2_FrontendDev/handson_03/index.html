@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal - JS ES6+ & DOM Manipulation (Hands-On 03)</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- ES6 Module Script -->
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="site-header">
+        <div class="site-branding">
+            <h1 class="site-title">Student Portal</h1>
+        </div>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-content">
+
+        <!-- Controls Toolbar (Search & Sort) -->
+        <section class="toolbar-section">
+            <div class="search-box">
+                <label for="search-courses" class="sr-only">Search Courses</label>
+                <input 
+                    type="text" 
+                    id="search-courses" 
+                    class="search-input" 
+                    placeholder="Search courses by name or code..."
+                >
+            </div>
+            
+            <div class="action-buttons">
+                <button type="button" id="sort-btn" class="btn-secondary">Sort by Credits (Desc)</button>
+                <button type="button" id="reset-btn" class="btn-outline">Reset Filter</button>
+            </div>
+        </section>
+
+        <!-- Selected Course Detail Display Area (Event Delegation Target) -->
+        <div id="selected-course" class="selected-course-banner" style="display: none;">
+            <p id="selected-course-text">Click any course card to inspect details here.</p>
+        </div>
+
+        <!-- Dynamic Course Grid (Populated via JavaScript) -->
+        <section id="courses" class="courses-section">
+            <h2 class="section-title">Available Courses</h2>
+            
+            <!-- Empty Container: JavaScript dynamically renders course cards here -->
+            <div class="course-grid"></div>
+
+            <!-- Dynamic Total Credits Indicator -->
+            <p id="total-credits" class="total-credits-display">Total Credits Enrolled: 0</p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Student Portal | ES6+ Modules & Dynamic DOM Rendering</p>
+    </footer>
+
+</body>
+</html>

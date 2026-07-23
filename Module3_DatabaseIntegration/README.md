@@ -13,7 +13,7 @@ All exercises model an enterprise **Student Course Registration System** (`colle
 
 ---
 
-## 📐 Entity-Relationship (ER) Diagram (ASCII Architecture)
+##  Entity-Relationship (ER) Diagram (ASCII Architecture)
 
 ```text
   +-------------------+              +-------------------+
@@ -56,7 +56,7 @@ All exercises model an enterprise **Student Course Registration System** (`colle
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Module3_DatabaseIntegration/
@@ -125,7 +125,7 @@ Module3_DatabaseIntegration/
 
 ---
 
-## 🐍 Installation & Database Setup
+## Installation & Database Setup
 
 ### 1. Virtual Environment & Dependencies
 ```bash
@@ -173,7 +173,7 @@ use college_nosql
 
 ---
 
-## 🚀 Execution Guide by Module
+##  Execution Guide by Module
 
 ### Running SQL Scripts (PostgreSQL / MySQL)
 ```bash
@@ -217,7 +217,7 @@ alembic upgrade head
 
 ---
 
-## 🧠 Database Normalization Overview (1NF to 3NF)
+## Database Normalization Overview (1NF to 3NF)
 
 1. **First Normal Form (1NF)**: Every column holds atomic, non-indivisible values. No repeating groups or arrays stored in CSV strings.
 2. **Second Normal Form (2NF)**: Satisfies 1NF, and every non-key column is fully functionally dependent on the primary key (no partial dependencies on composite keys).
@@ -225,7 +225,7 @@ alembic upgrade head
 
 ---
 
-## 📤 Submission Instructions
+##  Submission Instructions
 
 ```bash
 git add .

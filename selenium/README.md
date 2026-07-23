@@ -17,7 +17,7 @@ Target Practice Web Application: [LambdaTest Selenium Playground](https://www.la
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```text
 SeleniumBasics/
@@ -76,7 +76,7 @@ SeleniumBasics/
 
 ---
 
-## 🐍 Python Version & Virtual Environment Setup
+##  Python Version & Virtual Environment Setup
 
 ### Required Python Version
 - **Python 3.12** (or Python 3.10+)
@@ -110,7 +110,7 @@ pip install -r requirements.txt
 
 ---
 
-## ⚙️ Using `webdriver-manager`
+##  Using `webdriver-manager`
 
 This project uses `webdriver-manager` to eliminate manual ChromeDriver downloading and path management issues.
 
@@ -128,7 +128,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 ---
 
-## 🚀 Running Individual Hands-On Exercises
+##  Running Individual Hands-On Exercises
 
 ### Hands-On 4: Selenium Setup & Navigation
 ```bash
@@ -145,7 +145,7 @@ python HandsOn5_Locators_Waits/fluent_wait.py
 
 ---
 
-## 🧪 Running PyTest Test Suites
+##  Running PyTest Test Suites
 
 ### Run Hands-On 6 PyTest Suite
 ```bash
@@ -164,7 +164,7 @@ pytest -v
 
 ---
 
-## 📊 Generating HTML Reports
+## Generating HTML Reports
 
 To generate a standalone, self-contained HTML test report:
 
@@ -176,7 +176,7 @@ The generated `report.html` includes test execution statuses (PASSED/FAILED), du
 
 ---
 
-## 🏛️ Page Object Model (POM) Explanation
+##  Page Object Model (POM) Explanation
 
 The **Page Object Model** is an industry-standard architectural pattern in test automation that separates **what to test** (test scripts) from **how to interact with the UI** (page objects).
 
@@ -195,7 +195,7 @@ graph TD
 
 ---
 
-## 📸 Project Screenshots Section
+##  Project Screenshots Section
 
 Screenshots captured during test failures or manual automation runs are stored in:
 - `HandsOn4_Selenium_Setup/screenshots/`
@@ -216,7 +216,7 @@ def pytest_runtest_makereport(item, call):
 
 ---
 
-## 📤 GitHub Submission Instructions
+##  GitHub Submission Instructions
 
 1. **Initialize Git Repository**:
    ```bash
